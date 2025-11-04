@@ -1,22 +1,44 @@
-# SHADIX
+# PRAGNA
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-Web3-green.svg)](https://solana.com/)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/ontora-ai.svg)](https://github.com/yourusername/ontora-ai/issues)
 
-[![Website](https://img.shields.io/badge/Website-SHADIX-blue?logo=google-chrome)](https://shadix.run/)
-[![Twitter](https://img.shields.io/badge/Twitter-SHADIX-blue?logo=twitter)](https://x.com/SHADIXTECH).
+[![Website](https://img.shields.io/badge/Website-PRAGNA-blue?logo=google-chrome)](https://pragna.tech/)
+[![Twitter](https://img.shields.io/badge/Twitter-PRAGNA-blue?logo=twitter)](https://x.com/PRAGNALABS).
 
-SHADIX introduces a new bridge architecture where privacy becomes portable.
+```
+PRAGNA is not built to predict, but to adapt. 
 
-It connects the Zcash network — long known for its shielded transactions and zk-SNARK privacy model — with Solana’s high-speed programmable environment. Instead of simply wrapping assets, SHADIX translates Zcash’s privacy logic into on-chain proof structures that can operate natively on Solana.
+When volatility spikes, it recalibrates. 
 
-Through its Zero-Knowledge Bridge Layer (ZKBL), SHADIX enables verifiable cross-chain movement of assets without revealing sender, receiver, or amount. Users can deposit ZEC into SHADIX’s vault, generate shielded representations on Solana, and perform swaps, staking, or DeFi interactions — all while keeping transactional data private.
+When greed dominates, it neutralizes. 
 
-Every bridge event is accompanied by a ZK Relay Proof, ensuring that all actions remain cryptographically valid and publicly auditable without exposing any personal or transaction details. This design preserves Zcash’s privacy integrity while extending its functionality into the broader Solana ecosystem.
+When code drifts, it learns.
 
-SHADIX isn’t just a connector — it’s a privacy infrastructure layer.
-By combining Zcash’s cryptographic strength with Solana’s composability, it builds the foundation for a new class of cross-chain applications: anonymous DeFi, stealth NFTs, and shielded liquidity networks.
+Every block is an iteration.
 
-In a world where transparency is default, SHADIX restores the right to invisible movement — where proof exists, but identity disappears.
+Every correction, a new mind.
+```
+
+
+The first self-correcting state machine on Solana.
+
+The blockchain has always been a recording machine — it only writes and never looks back.
+
+PRAGNA is changing that.
+
+It is the first self-correcting on-chain state structure on Solana, capable of observing its own deviation, measuring imbalance, and automatically restoring equilibrium without human intervention.
+
+Every on-chain event causes a subtle state shift — a Δ value representing tension, volatility, or bias.
+
+PRAGNA’s equilibrium layer continuously tracks these shifts and compares them with an ideal state curve generated from real-time network data.
+
+When the deviation exceeds the threshold of 0.05Δ, the system automatically initiates a self-correction cycle, redistributing weight, adjusting parameters, and bringing the network back to balance.
+
+Each correction becomes part of the system’s memory.
+Over time, PRAGNA learns faster and reacts more intelligently,
+eventually forming a “reflex arc” unique to Solana.
+
+PRAGNA transforms the blockchain from passive recording into active stabilization.
