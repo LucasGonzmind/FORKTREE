@@ -1,26 +1,39 @@
-# RADARE
+# MISCAN
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-Web3-green.svg)](https://solana.com/)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/ontora-ai.svg)](https://github.com/yourusername/ontora-ai/issues)
 
-[![Website](https://img.shields.io/badge/Website-RADARE-blue?logo=google-chrome)](https://radare.tech/)
-[![Twitter](https://img.shields.io/badge/Twitter-RADARE-blue?logo=twitter)](https://x.com/RADARESCAN)
+[![Website](https://img.shields.io/badge/Website-MISCAN-blue?logo=google-chrome)](https://miscan.fun/)
+[![Twitter](https://img.shields.io/badge/Twitter-MISCAN-blue?logo=twitter)](https://x.com/MISCANLAB)
 
-## 4Baq86yrraRXwobaR4TgZMYzb2ywHi7XZyj16X4Tpump
+```
+ .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .-----------------.
+| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+| | ____    ____ | || |     _____    | || |    _______   | || |     ______   | || |      __      | || | ____  _____  | |
+| ||_   \  /   _|| || |    |_   _|   | || |   /  ___  |  | || |   .' ___  |  | || |     /  \     | || ||_   \|_   _| | |
+| |  |   \/   |  | || |      | |     | || |  |  (__ \_|  | || |  / .'   \_|  | || |    / /\ \    | || |  |   \ | |   | |
+| |  | |\  /| |  | || |      | |     | || |   '.___`-.   | || |  | |         | || |   / ____ \   | || |  | |\ \| |   | |
+| | _| |_\/_| |_ | || |     _| |_    | || |  |`\____) |  | || |  \ `.___.'\  | || | _/ /    \ \_ | || | _| |_\   |_  | |
+| ||_____||_____|| || |    |_____|   | || |  |_______.'  | || |   `._____.'  | || ||____|  |____|| || ||_____|\____| | |
+| |              | || |              | || |              | || |              | || |              | || |              | |
+| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+ '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+```
 
-📡 RADARE — The Instant Arbitrage Radar for Polymarket
+In the fast-moving Solana ecosystem, most wallets behave like static storage—holding tokens, reacting to volatility, and hoping for upside. But growth should never rely on chance. Every SPL asset you own carries structure, correlation, momentum, and hidden synergy waiting to be activated.
+MISCAN unlocks this dormant potential.
 
-In prediction markets, speed is everything. Opportunities don’t wait — they appear, shift, and disappear within seconds. RADARE is built for this exact moment. It continuously scans every Polymarket event, detects mispriced probabilities, identifies liquidity lags, tracks whale movements, and captures every signal that hints at a profitable arbitrage opportunity.
+MISCAN is an intelligent synergy engine built to reorganize your SPL wallet into a dynamic, self-optimizing system. It continuously analyzes token interactions, liquidity conditions, volatility patterns, and your historical trading behavior to construct a real-time Synergy Matrix—a model that understands how your assets strengthen or weaken each other.
 
-While traders are still refreshing charts, RADARE has already analyzed the price action, compared cross-market discrepancies, evaluated risk-adjusted spreads, and surfaced the events where profits are most likely to emerge. Every shift in odds, every sudden bet, every liquidity imbalance becomes a signal — and RADARE reads these signals instantly.
+Instead of chasing charts or relying on emotion, MISCAN gives you a unified, strategic view of your wallet: which tokens deserve more allocation, which combinations reduce risk, which assets are dragging your performance, and where the next growth window is forming. Every action becomes deliberate. Every choice becomes optimized.
 
-The system filters noise, highlights only the highest-value opportunities, and delivers them the moment they appear. No hesitation, no waiting, no manual scanning. Just pure, real-time intelligence designed for one purpose:
-to let you act before the rest of the market even notices.
+You are no longer managing isolated tokens;
+you are managing an evolving micro-portfolio tuned for continuous net-value growth.
 
-RADARE turns Polymarket into a readable map of mispricing and momentum —
-a battlefield where the fastest signal wins.
+MISCAN does not take custody, does not execute trades for you, and does not impose strategies. It simply reveals the optimal path—using synergy algorithms, structural modeling, and behavioral mapping—to let your wallet grow smarter, stronger, and more resilient over time.
 
-Here, timing isn’t an advantage.
-It’s the entire game.
+This is not a trading tool.
+This is your SPL synergy intelligence system.
+A new way to let your wallet actively work for you.
