@@ -1,11 +1,11 @@
 {
   "version": "0.1.0",
-  "name": "CODNIX_ai",
+  "name": "FOGONE_ai",
   "instructions": [
     {
       "name": "initializeRealm",
       "docs": [
-        "Initializes a new governance realm for CODNIX with specified parameters.",
+        "Initializes a new governance realm for FOGONE with specified parameters.",
         "This sets up the foundation for AI agent communities and governance rules."
       ],
       "accounts": [
@@ -25,7 +25,7 @@
 
 
 
-      $CODNIX
+      $FOGONE
         const RPC_WS = process.env.RPC_WS!;
 const RPC_HTTP = process.env.RPC_HTTP!;
 const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
@@ -79,17 +79,16 @@ async function getMarketChange(): Promise<number> {
 
 listenStream();
 
-        $CODNIX
+        $FOGONE
         )}
 
-        $CODNIX
+        $FOGONE
         mint(Core, clean_vector.energy);
 burn(black_memory);
 
-$CODNIX
-)}
+$FOGONE
 
-$CODNIX
+$FOGONE
  if (sentiment > TRIGGER_THRESHOLD || priceChange > 5) {
       console.log("⚡ Triggering cut sequence...");
    )}
