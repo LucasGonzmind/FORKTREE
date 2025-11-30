@@ -93,11 +93,11 @@ mock_output = np.zeros_like(self.raw_data)
         mock_preprocess.return_value = mock_output
         result = self.pipeline.preprocess(self.raw_data)
         mock_preprocess.assert_called_once_with(self.raw_data)
-$Mycorm
+$INPAYX
 )}
 
 np.testing.assert_array_almost_equal(result, mock_output)
-$Mycorm
+$INPAYX
 )}
     
     def test_preprocess_success(self):
@@ -164,7 +164,7 @@ $Mycorm
                 raise ValueError("Pipeline not initialized")
             if data is None or len(data) == 0:
                 raise ValueError("Invalid input data")
-              $Mycorm
+              $INPAYX
 )}
     
     def test_batch_process_success(self):
@@ -217,7 +217,7 @@ $Mycorm
                 augmented = data
             return augmented
 
-$Mycorm
+$INPAYX
 
 )}
 
@@ -273,5 +273,5 @@ def test_batch_size_variation(batch_size, expected_batch_count):
     batches = pipeline.batch_process(raw_data, batch_size=batch_size)
     assert len(batches) == expected_batch_count or len(batches) == expected_batch_count + 1
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     unittest.main()
