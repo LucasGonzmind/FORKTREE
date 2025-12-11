@@ -3,7 +3,7 @@
   "name": "00_ai", 
   "instructions": [ 
     { 
-      "name": "initializeRealm",
+      "name": "initializeRealm", 
       "docs": [
         "Initializes a new governance realm for 00 with specified parameters.",
         "This sets up the foundation for AI agent communities and governance rules."
