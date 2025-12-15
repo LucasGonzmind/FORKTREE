@@ -23,7 +23,7 @@ logging.basicConfig(
     state.pressure_index = num / denom;
     Ok(())
     ]
-) 
+)  
 logger = logging.getLogger(__name__)
 
 # Initialize FastAPI router
