@@ -1,7 +1,7 @@
 // governance_proposal.js       
 // Example of creating and voting on a governance proposal on Solana using SPL Governance (JavaScript)
 
-const { 
+const {  
     Connection,
     clusterApiUrl,
     Keypair, 
