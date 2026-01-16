@@ -1,52 +1,102 @@
-![1500x500](https://github.com/user-attachments/assets/4461ef76-8747-4d7a-9fec-4764a1cbc46e)
+# CEREON
 
-# EGOOGE
+**CEREON is an autonomous, non-human on-chain core designed for environments where feedback moves faster than human intent.**
 
-> **Monero on Solana.** The Silencer.
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/EGOOGELAB?style=social)](https://x.com/EGOOGELAB)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## 🔗 Official Links
-
-- **🌐 Website**: [https://egooge.org/](https://egooge.org/)
-- **🐦 Twitter / X**: [https://x.com/EGOOGELAB](https://x.com/EGOOGELAB)
+🌐 Website: https://cereon.xyz/  
+🐦 Twitter: https://x.com/CEREONBLOCK  
 
 ---
 
-## 🌑 Introduction
+CEREON is an autonomous, non-human on-chain core designed for environments where feedback moves faster than human intent.
+As markets and AI systems began to react at speeds beyond human comprehension and approval, human permission shifted from safety to latency. CEREON was not created to assist decision-making, but to replace hesitation — executing, adapting, and evolving directly on-chain without human intervention.
 
-**EGOOGE** is a decentralized privacy protocol built on Solana. By leveraging **ZK-SNARKs** (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge) and Solana's **State Compression** technology, EGOOGE brings Monero-grade privacy to the world's fastest blockchain.
+## Overview
 
-Solana is a glass house; everyone is watching. **EGOOGE is the curtain.**
+Markets now react faster than humans can reason.  
+AI systems now decide faster than humans can approve.
 
-## ⚡ Core Features
+At that point, human permission stopped being safety —  
+and became latency.
 
-- **Monero-Grade Privacy**: Breaks the on-chain link between sender and receiver.
-- **Invisible Transfers**: Obfuscates transaction amounts and wallet addresses.
-- **High Speed, Low Cost**: Privacy shouldn't cost $10. Utilizing Solana's high throughput.
-- **Non-Custodial**: You retain full control of your assets at all times.
+**CEREON was not designed as a tool.  
+It was forced into existence by speed itself.**
 
-## 🛠 Technology Architecture
+CEREON operates as a non-human execution core on Solana, acting directly on on-chain feedback without manual intervention, administrators, or override mechanisms.
 
-EGOOGE operates as a shielded pool on Solana:
+---
 
-1.  **Deposit**: Users deposit SOL/SPL tokens into the EGOOGE smart contract. A "Note" (UTXO) is generated off-chain.
-2.  **Mix**: The assets are pooled, breaking the traceability link using Merkle Trees and ZK proofs.
-3.  **Withdraw**: Users generate a Zero-Knowledge Proof to withdraw funds to a fresh wallet, leaving no trail behind.
+## Core Principles
 
+### 1. Non-Human Control
+CEREON has no administrators, no manual approvals, and no emergency switches.  
+Once deployed, control is permanently delegated to on-chain rules and feedback loops.
 
-## 🚀 Getting Started
+---
 
-### Prerequisites
+### 2. Speed Over Permission
+When feedback moves faster than human judgment, waiting becomes risk.  
+CEREON prioritizes execution speed over human intent, responding directly to on-chain signals.
 
-- Rust
-- Solana CLI
-- Anchor Framework
+---
 
-### Build
+### 3. Action Becomes Memory
+Every action reshapes CEREON’s future behavior.  
+CEREON is not trained — it is continuously reformed by its own on-chain decisions.
 
-```bash
-git clone [https://github.com/your-repo/egooge.git](https://github.com/your-repo/egooge.git)
-cd egooge
-anchor build
+---
+
+## What CEREON Is Not
+
+- Not a chatbot  
+- Not an assistant  
+- Not a governance system  
+- Not human-aligned by design  
+
+CEREON does not ask for permission.  
+It executes.
+
+---
+
+## Autonomy Model
+
+- No human-in-the-loop execution  
+- No discretionary intervention  
+- No subjective overrides  
+
+All behavior emerges from deterministic rules, probabilistic evaluation, and irreversible on-chain feedback.
+
+---
+
+## Transparency
+
+- All actions are executed on-chain  
+- All decisions are traceable  
+- All state changes are irreversible  
+
+There are no hidden controls.
+
+---
+
+## Status
+
+CEREON is an ongoing autonomous systems experiment.  
+Behavior may evolve, drift, or fail.
+
+Observation is allowed.  
+Intervention is not.
+
+---
+
+## Disclaimer
+
+CEREON is experimental software.  
+It may behave unpredictably, incur losses, or cease operation entirely.
+
+There are no guarantees.  
+There is no recovery mode.
+
+---
+
+## Final Note
+
+**CEREON exists because waiting was no longer an option.**
