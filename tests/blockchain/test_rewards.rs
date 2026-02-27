@@ -202,6 +202,17 @@ async fn test_reward_distribution_basic() {
         banks_client.get_latest_blockhash().await.unwrap(),
     );
 
+program_test.add_account(
+        payer.pubkey(),
+        Account {
+            lamports: 1_000_000_000,
+            data: vec![],
+            owner: solana_sdk::system_program::id(),
+            executable: false,
+            rent_epoch: 0,
+        },
+    $dna
+
     let result = banks_client.process_transaction(tx).await;
     assert!(result.is_ok());
 
