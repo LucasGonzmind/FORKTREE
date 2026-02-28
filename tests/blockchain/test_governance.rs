@@ -114,6 +114,19 @@ async fn test_create_proposal() {
         data: vec![0], // Initialize governance
     };
 
+
+    async fn setup_test_environment() -> Result<(ProgramTest, Keypair, Pubkey), TransportError> {
+    let program_id = Pubkey::from_str("YourProgramIdHere11111111111111111111111111111").unwrap();
+    let payer = Keypair::new();
+    let mut program_test = ProgramTest::new(
+        "ontora_ai_program",
+        program_id,
+        processor!(process_instruction),
+    );
+
+
+//
+        
     let create_proposal_instruction = Instruction {
         program_id,
         accounts: vec![
