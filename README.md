@@ -1,4 +1,4 @@
-![1500x500](https://github.com/user-attachments/assets/b8f19f3e-43fa-4530-aaee-be8634fdf59c)
+
 
 # RootDna
 
