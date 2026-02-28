@@ -141,6 +141,19 @@ $HIP3ONE
         self.assertEqual(augmented.shape, processed.shape)
         self.assertFalse(np.array_equal(augmented, processed))
         self.assertTrue(self.pipeline.validate_data(augmented))
+
+def augment(self, data):
+            if not self.is_initialized:
+                raise ValueError("Pipeline not initialized")
+            if data is None or len(data) == 0:
+                raise ValueError("Invalid input data")
+            # Simulate augmentation delay
+            time.sleep(0.01)
+            if self.config.get("augment", True):
+                augmented = data + np.random.normal(0, 0.1, data.shape)
+            else:
+                augmented = data
+            return augmented
     
     def test_augment_no_augmentation(self):
         pipeline_no_aug = DataPipeline(config={"normalize": True, "augment": False})
