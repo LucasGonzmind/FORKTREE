@@ -1,10 +1,12 @@
 
-# Propaga License
+# LICENSE
 
-Copyright (c) 2026 Propaga
+## RootDna License
+
+Copyright (c) 2026 RootDna Labs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
+of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -12,80 +14,67 @@ furnished to do so, subject to the following conditions:
 
 ---
 
-## 1. Attribution
+### 1. Attribution
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
 ---
 
-## 2. Open Collaboration
+### 2. Open Collaboration
 
-The Propaga ecosystem encourages open collaboration. Contributions, forks,
-and extensions are permitted, provided they maintain transparency and do not
-misrepresent the original project.
+RootDna is designed as an open and evolving intelligence framework.  
+Contributions, forks, and derivative work are encouraged, provided that:
 
----
-
-## 3. Responsible Use
-
-This Software is intended for research, infrastructure development, and the
-creation of autonomous systems that operate under ethical, legal, and safety
-constraints.
-
-Users and developers agree not to use this Software for:
-- illegal activities
-- harmful or malicious autonomous behavior
-- systems that violate safety or regulatory boundaries
-- large-scale abuse of networks or infrastructure
+- Proper attribution is maintained.
+- Changes and improvements remain transparent.
+- The ecosystem remains open and accessible.
 
 ---
 
-## 4. Autonomous Systems Disclaimer
+### 3. No Warranty
 
-Propaga focuses on systems capable of replication and propagation. Developers
-and operators are fully responsible for:
-- monitoring deployed systems
-- enforcing constraints and safety policies
-- ensuring compliance with applicable laws
-- managing risk and resource usage
-
-The maintainers of this Software are not responsible for outcomes resulting
-from the deployment or behavior of autonomous agents.
-
----
-
-## 5. No Warranty
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
-OR OTHER DEALINGS IN THE SOFTWARE.
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
 
 ---
 
-## 6. Future Evolution
+### 4. Responsible Use
 
-As Propaga evolves, this license may be updated to reflect new requirements
-around safety, governance, and autonomous infrastructure. Users are encouraged
-to review the latest version regularly.
+Users and developers are responsible for ensuring that their use of RootDna
+complies with applicable laws and ethical standards in their jurisdiction.
 
----
-
-## 7. Philosophy
-
-Propaga is built on the belief that intelligent systems should:
-- propagate responsibly
-- evolve safely
-- remain transparent
-- benefit open innovation
-
-By using this Software, you agree to uphold these principles.
+RootDna is an experimental framework. Autonomous systems may produce
+unexpected outcomes. All deployments should include appropriate monitoring,
+risk controls, and safeguards.
 
 ---
 
-For questions, contact the Propaga team through official channels.
+### 5. Evolution Clause
+
+RootDna is intended to evolve over time. This license does not restrict future
+updates, governance mechanisms, or ecosystem standards introduced by RootDna Labs.
+
+---
+
+## Summary
+
+You are free to:
+- Use the software commercially
+- Modify and distribute
+- Build products on top of RootDna
+
+As long as:
+- Attribution is preserved
+- No warranty is assumed
+
+---
+
+For commercial partnerships or special licensing, please contact:
+contact@rootdna.org
