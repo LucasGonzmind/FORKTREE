@@ -123,6 +123,17 @@ async fn test_create_proposal() {
         program_id,
         processor!(process_instruction),
     );
+        //
+
+        async fn setup_test_environment() -> Result<(ProgramTest, Keypair, Pubkey), TransportError> {
+    let program_id = Pubkey::from_str("YourProgramIdHere11111111111111111111111111111").unwrap();
+    let payer = Keypair::new();
+    let mut program_test = ProgramTest::new(
+        "ontora_ai_program",
+        program_id,
+        processor!(process_instruction),
+    );
+            
 
 
 //
@@ -263,6 +274,16 @@ async fn test_execute_proposal() {
         data: vec![1], // Create proposal
     };
 
+    //
+    let vote_instruction = Instruction {
+        program_id,
+        accounts: vec![
+            AccountMeta::new(voter.pubkey(), true),
+            AccountMeta::new(proposal_account, false),
+        ],
+        data: vec![2, 1], // Instruction type for vote, 1 for "vote for"
+    };
+
     let fund_voter_instruction = system_instruction::transfer(
         &payer.pubkey(),
         &voter.pubkey(),
@@ -318,6 +339,16 @@ async fn test_execute_proposal() {
     assert_eq!(proposal.executed, true);
 }
 
+
+    //
+
+      let fund_voter_instruction = system_instruction::transfer(
+        &payer.pubkey(),
+        &voter.pubkey(),
+        1_000_000,
+    );
+
+    []
 #[tokio::test]
 async fn test_unauthorized_vote_fails() {
     let (mut program_test, payer, program_id) = setup_test_environment().await.unwrap();
