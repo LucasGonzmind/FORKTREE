@@ -1,249 +1,238 @@
 
-# Propaga
+![1500x500](https://github.com/user-attachments/assets/27d70057-b246-4ee5-b545-055fd34d681c)
 
+# RootDna
 
 <div align="center">
 
-<a href="https://x.com/billyporter5347">
-<img src="https://img.shields.io/badge/X%20(Twitter)-Follow-22c55e?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/billyporter5347/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-22c55e?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<br/>
-
-<img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Open%20Source-Yes-22c55e?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AI-Web4-22c55e?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Autonomous-Systems-22c55e?style=for-the-badge"/>
+### A Web4-native framework for evolving autonomous intelligence.
 
 </div>
 
 ---
 
-## 🌐 Overview
+## 🟠 Official Links
 
-**Propaga** is a Web4-native framework for autonomous systems that replicate, scale, and evolve across real environments.
+<div align="center">
 
-Instead of building a single intelligent agent, Propaga focuses on **continuous propagation** — systems that learn, adapt, and expand without limits.
+<a href="https://rootdna.org/" target="_blank">
+<img src="https://img.shields.io/badge/Website-rootdna.org-orange?style=for-the-badge">
+</a>
 
-The goal is to create infrastructure for:
-- Autonomous agents
-- Swarm intelligence
-- Modular decision systems
-- Continuous evolution
-- Infinite scaling
+<a href="https://x.com/ROOTDNALABS" target="_blank">
+<img src="https://img.shields.io/badge/Twitter-ROOTDNALABS-orange?style=for-the-badge">
+</a>
 
-Propaga introduces a new paradigm:
-> Intelligence is not static. It propagates.
+<a href="https://x.com/billyporter5347" target="_blank">
+<img src="https://img.shields.io/badge/Founder-Billy%20Porter-orange?style=for-the-badge">
+</a>
 
----
+<a href="https://www.linkedin.com/in/billyporter5347/" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-Profile-orange?style=for-the-badge">
+</a>
 
-## 🚀 Vision
-
-The next generation of the internet will not be driven by users clicking buttons or manually executing transactions.
-
-It will be driven by:
-- Intent
-- Autonomous execution
-- Self-improving systems
-- Distributed intelligence
-
-Propaga builds the layer where intelligent systems:
-- Multiply
-- Coordinate
-- Adapt
-- Survive
-- Improve
+</div>
 
 ---
 
-## 🔥 Core Principles
+## 🌍 Overview
 
-| Principle | Description |
+RootDna is a framework for building autonomous agents that continuously learn, adapt, and evolve.  
+Instead of static models, RootDna focuses on long-term intelligence, where agents accumulate experience and improve over time.
+
+RootDna enables persistent decision-making systems designed for dynamic environments such as:
+
+- Financial markets  
+- Multi-agent simulations  
+- Autonomous research  
+- Digital economies  
+- Adaptive infrastructure  
+
+The goal is to move beyond automation toward evolving intelligence.
+
+---
+
+## 🧬 Core Ideas
+
+### Modular Intelligence  
+Agents are composed of reusable decision modules rather than single models.
+
+### Continuous Learning  
+Agents improve through real-world feedback and iteration.
+
+### Persistent Identity  
+Each agent maintains memory and behavioral continuity.
+
+### Evolution  
+Strategies mutate, recombine, and improve across generations.
+
+---
+
+## ⚡ Why RootDna
+
+| Traditional AI | RootDna |
+|----------------|--------|
+| Static models | Evolving agents |
+| Periodic retraining | Continuous adaptation |
+| Reset learning | Persistent memory |
+| Single optimization | Long-term intelligence |
+| Limited scalability | Population-level evolution |
+
+---
+
+## 🧠 Architecture
+
+| Layer | Function |
 |------|------|
-| Modular | Systems built from reusable skills |
-| Adaptive | Continuous learning from environments |
-| Persistent | Memory and experience accumulation |
-| Scalable | Autonomous expansion |
-| Observable | Transparent and measurable propagation |
-| Safe | Constraint-first architecture |
+| Perception | Interpret environment |
+| Decision | Strategy generation |
+| Execution | Action layer |
+| Memory | Knowledge accumulation |
+| Adaptation | Learning loop |
+| Evolution | Mutation and inheritance |
 
 ---
 
-## 🧠 What Makes Propaga Different
-
-### Traditional AI
-- Static models
-- Single agents
-- Limited adaptability
-- Manual operation
-
-### Propaga
-- Dynamic systems
-- Swarm-based intelligence
-- Autonomous propagation
-- Continuous learning
-
----
-
-## ⚙️ System Architecture
-
-Propaga is composed of multiple layers:
-
-| Layer | Role |
-|------|------|
-| Signal | Perception and environment awareness |
-| Replication | Controlled spawning of systems |
-| Distribution | Deployment across networks |
-| Coordination | Swarm communication |
-| Adaptation | Continuous improvement |
-| Memory | Knowledge persistence |
-| Selection | Survival and filtering |
-| Resource | Safety and constraints |
-
----
-
-## 🔄 Workflow
-
-### High-Level Lifecycle
+## 🔁 Workflow
 
 ```mermaid
 flowchart LR
-A[Sense Environment] --> B[Plan]
-B --> C[Spawn Instances]
-C --> D[Deploy]
-D --> E[Coordinate]
-E --> F[Learn]
-F --> G[Select]
-G --> H[Promote]
-H --> A
+A[Define Agent] --> B[Deploy]
+B --> C[Collect Feedback]
+C --> D[Adapt]
+D --> E[Mutation]
+E --> F[Selection]
+F --> G[Inheritance]
+G --> B
 ```
 
-This loop enables continuous propagation while maintaining safety and control.
+This closed loop enables long-term evolution.
 
 ---
 
-## 📊 Propagation Loop Explained
+## 🌍 Multi-Agent Systems
 
-| Step | Description |
+RootDna supports large-scale agent ecosystems:
+
+- Cooperation and competition  
+- Resource scarcity  
+- Strategy evolution  
+- Emergent intelligence  
+- Long-term adaptation  
+
+---
+
+## 🔬 Example Agents
+
+| Agent | Focus |
 |------|------|
-| Sense | Collect signals from environments |
-| Plan | Evaluate opportunities |
-| Spawn | Create new instances |
-| Deploy | Distribute across environments |
-| Coordinate | Share workload |
-| Learn | Update behaviors |
-| Select | Filter failures |
-| Promote | Improve templates |
+| Alpha Trader | Adaptive finance |
+| Mutation Engine | Evolution |
+| Strategy Composer | Strategy design |
+| Autonomous Researcher | Knowledge |
+| Memory Core | Persistence |
+| World Builder | Simulations |
 
 ---
 
-## 🌱 Why Propagation Matters
+## 📊 Core Parameters
 
-The most successful systems in nature and technology share one property:
-
-They replicate and adapt.
-
-Propaga applies this principle to intelligent infrastructure.
-
-Instead of optimizing a single system, we optimize populations.
-
----
-
-## 🔐 Safety and Constraints
-
-Propagation without control leads to chaos. Propaga enforces:
-
-- Budget limits
-- Rate controls
-- Safe mutation
-- Sandboxed deployment
-- Observability
-- Kill switches
-- Rollback pipelines
-
----
-
-## 📈 Token Utility
-
-The Propaga token aligns long-term incentives across the ecosystem.
-
-| Function | Description |
+| Parameter | Description |
 |------|------|
-| Access | Unlock advanced capabilities |
-| Governance | Risk and safety policies |
-| Incentives | Reward propagation |
-| Coordination | Swarm alignment |
-| Infrastructure | Support long-term growth |
-
-The token is designed to support sustainable system evolution rather than short-term speculation.
+| Exploration | Search new strategies |
+| Adaptation | Learning speed |
+| Stability | Long-term robustness |
 
 ---
 
-## 🌍 Use Cases
+## 🔧 Skill System
 
-- Autonomous trading systems
-- AI-driven execution
-- Distributed automation
-- Decentralized research
-- Strategy propagation
-- Resource optimization
-- Agent economies
+RootDna agents are composed of modular skills:
+
+- Perception  
+- Decision  
+- Execution  
+- Memory  
+- Adaptation  
+- Evolution  
+
+Skills are reusable and inheritable.
+
+---
+
+## 🔐 Safety
+
+RootDna integrates:
+
+- Risk limits  
+- Monitoring  
+- Constraints  
+- Fallback mechanisms  
+- Controlled mutation  
+
+---
+
+## 🚀 Use Cases
+
+- Algorithmic trading  
+- Autonomous research  
+- Multi-agent worlds  
+- Optimization systems  
+- Digital economies  
+- Infrastructure intelligence  
+
+---
+
+## 🛠 Vision
+
+RootDna aims to become:
+
+- A global intelligence infrastructure  
+- A shared evolution layer  
+- A platform for autonomous ecosystems  
+- A core Web4 primitive  
 
 ---
 
 ## 🧩 Roadmap
 
-### Phase 1
-- Core architecture
-- Skill framework
-- Simulation environment
+### Phase 1  
+Core framework.
 
-### Phase 2
-- Multi-agent coordination
-- Adaptive routing
-- Swarm orchestration
+### Phase 2  
+Skill system.
 
-### Phase 3
-- Real-world deployment
-- Cross-network propagation
-- Autonomous ecosystems
+### Phase 3  
+Multi-agent environments.
 
-### Phase 4
-- Open skill marketplace
-- Global intelligence network
+### Phase 4  
+Evolution marketplace.
+
+### Phase 5  
+Global network.
 
 ---
 
 ## 🤝 Contributing
 
-We believe open collaboration drives long-term innovation.
-
-Developers, researchers, and builders are welcome to:
-- Create new skills
-- Improve safety
-- Design new propagation models
-- Build autonomous applications
+We welcome developers, researchers, and builders.
 
 ---
 
 ## 📜 License
 
-This project is open-source under the MIT License.
+<div align="center">
+
+![MIT](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open-Source-orange?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI-Evolution-orange?style=for-the-badge)
+
+</div>
 
 ---
 
-## 🌌 Conclusion
+## ⭐ Final Vision
 
-Propaga is not about a single model.
+The future of intelligence is not static.
 
-It is about a future where intelligent systems:
-- Replicate
-- Adapt
-- Survive
-- Evolve
-
-And never stop growing.
+It evolves.
