@@ -1,233 +1,204 @@
+
 # SKILL.md
 
-## Propaga Skill System
+## RootDna Skill System
 
 ### Overview
 
-In Propaga, a **Skill** is a self-contained capability that an autonomous system can execute to **propagate**, **replicate**, and **scale** behavior across networks and environments.
+In RootDna, a **Skill** is the fundamental unit of intelligence: a modular, reusable capability that an autonomous agent can execute to **perceive**, **decide**, and **act** within an environment.
 
-Propaga is built around one core idea: **systems should be able to multiply and spread safely**.  
-Instead of designing a single “perfect agent,” Propaga focuses on creating **repeatable units of intelligence** that can:
+RootDna agents are not monolithic “one-model-does-everything” systems. Instead, each agent is composed of multiple skills that can be **composed**, **routed**, **evaluated**, **inherited**, and **evolved** over time. This structure enables:
 
-- replicate into new instances (with controlled variation)
-- deploy into new environments automatically
-- learn from outcomes and pass forward improvements
-- coordinate at scale without collapsing into chaos
+- **Continuous adaptation** in dynamic environments
+- **Long-term learning** without full resets
+- **System-wide intelligence accumulation** across generations
+- **Transparency and control** through observable decision signals
 
-A Propaga system is therefore composed of **many skills**, each responsible for a specific function in the propagation lifecycle.
-
-Skills are the building blocks of:  
-**replication → distribution → adaptation → selection → reinvestment → propagation again**
+RootDna skills are designed for real, changing environments such as markets, simulations, and digital ecosystems where feedback is continuous and uncertainty is the default.
 
 ---
 
 ## Design Principles
 
-Propaga skills follow five principles to keep propagation scalable and controlled.
+RootDna skills follow five principles that keep agents evolvable and safe:
 
-### 1) Modular
-Each skill has a narrow responsibility. Small skills propagate better than complex systems.
+### 1) Modularity
+A skill should have a clear responsibility and minimal surface area. Small skills are easier to test, replace, and evolve.
 
-### 2) Composable
-Skills must connect through stable inputs/outputs so they can be chained into replication pipelines.
+### 2) Composability
+Skills must work together. Every skill should define stable inputs/outputs so it can be chained, routed, or combined with other skills.
 
-### 3) Observable
-Every skill emits signals and metrics. Propagation without observability becomes noise.
+### 3) Adaptability
+Skills should be able to improve from feedback. Adaptation can be simple parameter tuning or more advanced online learning.
 
-### 4) Constraint-First
-Skills must enforce budgets, rate limits, and safety boundaries by default.
+### 4) Inheritance
+Skills that prove effective should be transferrable to other agents or future generations through parameter transfer, structural reuse, or recombination.
 
-### 5) Evolvable
-Skills support controlled mutation and selection to improve across generations.
+### 5) Observability
+Skills must expose signals and metrics that explain what they did and how well it worked. If it cannot be measured, it cannot evolve safely.
 
 ---
 
 ## Core Concepts
 
-### Skill vs Instance vs Swarm
+### Skill vs Strategy vs Agent
 
-- **Skill**: a reusable capability module (e.g., replication planner, allocator, deployer)
-- **Instance**: one running unit of the system composed of skills + state + memory
-- **Swarm**: a population of instances that coordinate, compete, and propagate
+- **Skill**: a focused capability (e.g., volatility estimation, routing, execution)
+- **Strategy**: a policy composed of skills (e.g., “trend + risk control + execution”)
+- **Agent**: a runtime system that orchestrates skills, maintains state/memory, interacts with environments, and evolves over time
 
-Propaga is designed for populations, not single agents.
+RootDna treats “intelligence” as an evolving system rather than a static artifact.
 
 ---
 
-## Skill Taxonomy
+## Skill Layers (Taxonomy)
 
-Propaga organizes skills by propagation lifecycle.
+RootDna organizes skills into layers to keep responsibilities clear and evolution manageable.
 
-### 1) Signal Skills (Perception)
-
-Signal skills transform environment data into usable signals for decisions.
+### 1) Perception Skills
+Perception skills transform raw environment inputs into structured signals.
 
 **Examples**
-- environment health detection
-- opportunity scoring signals
-- resource availability signals
-- drift / anomaly detection
+- Market regime detection
+- Volatility estimation
+- Trend / momentum extraction
+- Multi-agent state tracking
+- Event parsing and normalization
 
-**Outputs**
-- normalized features
-- confidence scores
-- alerts and thresholds
+**Typical outputs**
+- Feature vectors
+- Regime labels
+- Confidence scores
+- Alerts and anomalies
 
 ---
 
-### 2) Replication Skills (Spawn / Clone)
-
-Replication skills define *when* and *how* new instances are created.
+### 2) Decision Skills
+Decision skills convert perceived state into action intent.
 
 **Examples**
-- spawn controller (when to replicate)
-- clone template builder (what gets copied)
-- mutation injector (how variation is applied)
-- identity seeder (how uniqueness is generated)
+- Strategy routing
+- Opportunity scoring
+- Risk evaluation
+- Allocation and sizing
+- Policy selection (which behavior to run)
 
-**Outputs**
-- replication plans
-- instance blueprints
-- mutation diffs
-- identity seeds
+**Typical outputs**
+- Action intents (long/short/hold, task selection, allocation %)
+- Confidence and uncertainty estimates
+- Rationale signals (which factors contributed)
 
 ---
 
-### 3) Distribution Skills (Deploy / Spread)
-
-Distribution skills decide *where* and *how* instances spread.
+### 3) Execution Skills
+Execution skills convert intents into real actions.
 
 **Examples**
-- environment selector (where to deploy)
-- deployment orchestrator (how to launch)
-- routing policy (how to allocate tasks/traffic)
-- throttling controller (prevent overload)
+- Trade execution
+- Position management
+- API integration (read/write)
+- Inter-agent communication
+- Simulation actions
 
-**Outputs**
-- deployment targets
-- rollout configs
-- rollout logs
-- safety throttles
+**Typical outputs**
+- Execution receipts (filled, partial, rejected)
+- Errors and retries
+- Latency and slippage (if relevant)
 
 ---
 
-### 4) Coordination Skills (Swarm)
-
-Coordination skills manage interaction between many instances.
+### 4) Adaptation Skills
+Adaptation skills update behavior through feedback loops.
 
 **Examples**
-- task allocator (divide work)
-- consensus / voting module (merge decisions)
-- leader-election or role assignment
-- communication protocol adapter
+- Parameter tuning
+- Reward shaping
+- Online learning adapters
+- Stability control and dampening
+- Performance drift detection
 
-**Outputs**
-- assignments
-- coordination states
-- merge decisions
-- conflict resolutions
+**Typical outputs**
+- Updated parameters and deltas
+- Adaptation summaries
+- Drift and stability metrics
 
 ---
 
-### 5) Adaptation Skills (Learn)
-
-Adaptation skills update behavior based on feedback.
+### 5) Memory Skills
+Memory skills store and retrieve long-term knowledge and maintain continuity.
 
 **Examples**
-- online parameter tuning
-- reward shaping
-- error correction loops
-- stability dampening
+- Episode memory (recent outcomes)
+- Long-term pattern memory
+- Summarization / compression
+- Retrieval and ranking
+- Identity persistence management
 
-**Outputs**
-- parameter updates
-- adaptation summaries
-- drift metrics
+**Typical outputs**
+- Memory snapshots
+- Retrieval results
+- Compression logs and health metrics
 
 ---
 
-### 6) Memory Skills (Persist)
-
-Memory skills store knowledge so propagation accumulates value.
+### 6) Evolution Skills
+Evolution skills introduce structured variation and selection at the skill/agent level.
 
 **Examples**
-- episode memory (recent outcomes)
-- long-term pattern memory
-- compressed state snapshots
-- knowledge export/import for clones
+- Mutation (parameter / structural)
+- Recombination (compose genes from multiple sources)
+- Selection (fitness filters)
+- Population sampling
+- Breeding pipelines
 
-**Outputs**
-- memory snapshots
-- retrieval results
-- export bundles
-- health metrics
-
----
-
-### 7) Selection Skills (Filter)
-
-Selection skills prevent “infinite replication” from becoming “infinite garbage.”
-
-**Examples**
-- fitness evaluator (score instances)
-- survival filters (keep/kill)
-- rollback controller
-- promotion pipeline (graduate winners)
-
-**Outputs**
-- fitness scores
-- retention decisions
-- promoted templates
-- kill-switch triggers
+**Typical outputs**
+- New candidate skills/agents
+- Mutation diffs
+- Fitness evaluations
 
 ---
 
-### 8) Resource Skills (Budget & Safety)
+## Skill Lifecycle
 
-Resource skills enforce constraints so propagation remains safe.
+A RootDna skill improves through a continuous lifecycle:
 
-**Examples**
-- rate limit enforcer
-- cost budget manager
-- risk boundary checker
-- circuit breaker and safe mode
+1. **Create**  
+   Author a skill with clear I/O contracts and safety constraints.
 
-**Outputs**
-- budgets and caps
-- violation logs
-- safe-mode states
+2. **Compose**  
+   Wire skills into an agent graph (pipeline, router, ensemble, hierarchy).
 
----
+3. **Deploy**  
+   Run in real or simulated environments.
 
-## Skill Lifecycle (Propagation Loop)
+4. **Observe**  
+   Record decisions, signals, and metrics.
 
-Propaga skills operate inside a continuous loop:
+5. **Adapt**  
+   Update parameters or internal logic based on feedback.
 
-1. **Sense** — collect signals from environments  
-2. **Plan** — decide if replication is justified  
-3. **Spawn** — create new instances from templates  
-4. **Deploy** — distribute instances into targets  
-5. **Coordinate** — share tasks and avoid duplication  
-6. **Learn** — update behavior from outcomes  
-7. **Select** — keep winners, discard failures  
-8. **Promote** — export improved templates for next generation  
+6. **Select**  
+   Keep effective skills; revise or remove underperformers.
 
-This loop repeats indefinitely, but remains controlled through selection and budgets.
+7. **Inherit**  
+   Transfer winning skills into new agents or generations.
+
+This loop allows intelligence to accumulate without full resets.
 
 ---
 
 ## Standard Skill Interface
 
-Propaga skills use a consistent interface to support composition and automation.
+RootDna skills should implement a consistent interface so they can be composed and routed safely.
 
-Minimum methods:
+At minimum, a skill should support:
 
-- `initialize(config)`  
-- `observe(env)`  
-- `propose(state)`  
-- `act(intent)`  
-- `update(feedback)`  
-- `metrics()`
+- `initialize(config)` – load config, constraints, and initialize state
+- `observe(env)` – transform raw environment into structured state/signals
+- `propose(state)` – propose an intent (for decision skills)
+- `act(intent)` – execute intent (for execution skills)
+- `update(feedback)` – adapt based on outcomes
+- `metrics()` – expose runtime performance signals
 
 ### Reference Interface (Python-style)
 
@@ -246,21 +217,27 @@ class Skill:
     name: str = "skill"
 
     def initialize(self, config: Dict[str, Any]) -> None:
+        """Load config, constraints, and initialize internal state."""
         ...
 
     def observe(self, env: Dict[str, Any]) -> Dict[str, Any]:
+        """Transform raw environment input into structured state/signals."""
         return {}
 
     def propose(self, state: Dict[str, Any]) -> SkillOutput:
+        """Propose an intent given state (decision skills)."""
         return SkillOutput()
 
     def act(self, intent: Dict[str, Any]) -> Dict[str, Any]:
+        """Execute intent (execution skills)."""
         return {}
 
     def update(self, feedback: Dict[str, Any]) -> None:
+        """Update parameters/logic based on outcome feedback."""
         ...
 
     def metrics(self) -> Dict[str, Any]:
+        """Expose metrics for evaluation and debugging."""
         return {}
 ```
 
@@ -268,148 +245,248 @@ class Skill:
 
 ## Composition Patterns
 
-### 1) Replication Pipeline
+RootDna supports multiple composition patterns. Use the simplest pattern that fits the problem.
 
-A common Propaga pipeline:
+### 1) Pipeline (Chain)
+A linear flow of skills:
+Perception → Decision → Execution → Feedback
 
-Signal → Replication Planner → Mutation Injector → Deploy → Coordinator → Evaluator
-
-Use this for controlled scaling.
-
----
-
-### 2) Swarm Router
-
-A router selects which instances should handle which tasks based on:
-
-- environment type
-- current load
-- historical performance
-- risk boundaries
+**Best for**
+- Clear stages
+- Easy debugging
+- Low complexity
 
 ---
 
-### 3) Promotion Ladder
+### 2) Router (Context-Based Selection)
+A routing skill chooses which decision module(s) to activate based on context.
 
-Instances graduate through levels:
-
-- sandbox → limited rollout → full rollout  
-Only winners are promoted.
+**Best for**
+- Regime shifts (e.g., stable vs volatile)
+- Conditional behaviors
+- Resource-aware control
 
 ---
 
-## Observability Requirements
+### 3) Ensemble (Voting / Blending)
+Multiple decision skills propose intents; a coordinator merges them.
 
-Propagation must be measurable.
+**Best for**
+- Robustness
+- Reducing single-strategy brittleness
+- Maintaining diversity
 
-### Required metrics (minimum)
+---
 
-- `spawn_rate`
-- `instance_count`
+### 4) Hierarchical (Manager + Workers)
+A manager skill assigns sub-tasks to worker skills.
+
+**Best for**
+- Research agents
+- Tool-using agents
+- Complex multi-step execution
+
+---
+
+## Skill Routing
+
+Routing is how RootDna stays adaptive without constantly rewriting agents.
+
+A router typically considers:
+- Context and regime signals
+- Confidence / uncertainty
+- Risk limits and constraints
+- Recent performance and drift
+- Resource budgets (latency, compute, cost)
+
+Routing outputs:
+- Which skills activate
+- How their outputs are combined
+- When to degrade to safe modes
+
+Routing logic itself can evolve.
+
+---
+
+## Observability and Metrics
+
+If a skill cannot be evaluated, it cannot evolve reliably.
+
+### Minimum recommended metrics
+- `success_rate`
+- `avg_reward` or `avg_pnl` (when applicable)
+- `risk_violations`
+- `decision_confidence`
+- `runtime_ms`
 - `failure_rate`
-- `avg_fitness`
-- `budget_used`
-- `constraint_violations`
-- `latency_ms` (if applicable)
 
-### Required logs (minimum)
+### Recommended decision signals
+- top contributing features
+- active modules/genes
+- confidence / uncertainty
+- reason strings (short, structured)
 
-- replication plan and diff
-- deployment target and rollout mode
-- reason and confidence outputs
-- selection decisions (keep/kill/promote)
-- rollback actions
+---
+
+## Feedback and Learning
+
+RootDna separates **feedback** from **training**. Feedback can arrive at different time scales.
+
+**Common feedback signals**
+- Profit/loss (markets)
+- Task success/failure (research/tools)
+- Resource outcomes (latency/cost)
+- Interaction outcomes (multi-agent)
+
+A skill should support:
+- Short loops (minutes/episodes)
+- Long loops (days/weeks)
+- Partial or delayed rewards
 
 ---
 
 ## Safety and Constraints
 
-Propaga enforces hard boundaries to prevent uncontrolled replication:
+Autonomous systems require guardrails. Skills should enforce:
 
-- **spawn caps**: maximum new instances per window  
-- **budget caps**: compute/cost ceilings  
-- **rate limits**: per-environment throttles  
-- **safe mode**: degrade to read-only behavior  
-- **circuit breakers**: auto-stop on repeated failures  
+- Action boundaries (allowed actions only)
+- Budget limits (rate, spend, compute)
+- Risk limits (exposure, drawdown, volatility caps)
+- Circuit breakers (halt on repeated failures)
+- Fallback behaviors (safe defaults)
 
-A Propaga skill must fail closed when unsure.
-
----
-
-## Mutation Policy (Controlled Variation)
-
-Mutation is allowed, but never random chaos.
-
-### Mutation types
-- parameter mutation (small bounded shifts)
-- structural mutation (swap modules)
-- routing mutation (change dispatch policy)
-- memory mutation (compression/retrieval strategy)
-
-### Mutation rules
-- bounded magnitude
-- diff must be logged
-- must run in sandbox before promotion
-- rollback must exist
+A safe skill:
+- refuses actions outside constraints
+- logs violations clearly
+- degrades gracefully with missing data
+- fails closed when uncertain
 
 ---
 
-## Selection Policy (Survival, Not Hype)
+## Inheritance
 
-Selection keeps Propaga productive.
+RootDna supports multiple forms of inheritance:
 
-### Fitness examples
+1) **Parameter inheritance**  
+Transfer tuned parameters into new skill instances.
+
+2) **Structural inheritance**  
+Reuse skill graphs (pipelines/routers) across agents.
+
+3) **Behavioral inheritance**  
+Preserve high-level tendencies (risk posture, exploration level).
+
+4) **Cross-agent reuse**  
+Promote stable skills to a shared library.
+
+Inheritance is how RootDna accumulates intelligence rather than resetting.
+
+---
+
+## Mutation
+
+Mutation introduces controlled variation.
+
+**Mutation types**
+- Parameter mutation: small nudges in thresholds/weights
+- Structural mutation: add/remove/swap modules
+- Routing mutation: adjust selection rules
+- Memory mutation: change compression/retrieval strategies
+
+**Mutation rules**
+- bounded (limits on magnitude)
+- logged (diffs recorded)
+- evaluable (must be tested)
+- reversible (rollback if unstable)
+
+---
+
+## Selection and Fitness
+
+Selection prevents chaos by promoting only robust improvements.
+
+### Fitness signals can include
 - long-term performance
+- risk-adjusted outcomes
 - stability under drift
+- generalization across regimes/environments
 - constraint compliance
-- robustness across environments
-- efficiency (reward per budget)
+- interpretability and debug-ability
 
-### Selection actions
-- **promote**: export winning template
-- **hold**: continue evaluating
-- **kill**: retire instance
-- **rollback**: revert template
+Selection methods may include:
+- rolling windows
+- tournament selection
+- multi-objective scoring (reward + risk + stability)
+
+---
+
+## Versioning and Compatibility
+
+Skills should be versioned to support safe inheritance.
+
+Recommended metadata:
+- `skill_id`
+- `version`
+- `compatibility_tags`
+- `required_inputs`
+- `expected_outputs`
+
+Avoid breaking changes. When breaking changes are necessary, provide adapters.
+
+---
+
+## Practical Example: Minimal RootDna Agent
+
+A minimal agent composition might be:
+
+- Perception: `RegimeDetector`
+- Decision: `StrategyRouter`
+- Execution: `Executor`
+- Adaptation: `FeedbackTuner`
+- Memory: `EpisodeMemory`
+- Evolution: `MutationEngine`
+
+Each component can evolve independently.
 
 ---
 
 ## Developer Guidelines
 
-Write Propaga skills that are:
+**Write skills that are**
+- small and readable
+- testable and observable
+- safe by default
+- deterministic when possible
+- compatible with composition patterns
 
-- small and deterministic where possible
-- observable and testable
-- constraint-first
-- compatible with replication and deployment
-- versioned for safe inheritance
-
-Avoid:
-
-- giant skills doing everything
-- hidden state without logs
-- uncontrolled replication triggers
-- mutations without evaluation or rollback
+**Avoid**
+- giant skills that do everything
+- hidden state with no logging
+- decisions without confidence signals
+- updates without evaluation/rollback
 
 ---
 
 ## Roadmap (Docs-First)
 
-Upcoming Propaga documentation will include:
+The RootDna skill system documentation will expand to include:
 
-- replication templates and schema
-- environment adapters
-- rollout modes and safety gates
-- swarm coordination strategies
-- fitness scoring recipes
+- skill registry and discovery
+- standard environment adapters
+- evaluation harnesses
+- agent templates
+- breeding and recombination pipelines
 - contribution guidelines for community skills
 
 ---
 
 ## Conclusion
 
-Propaga is not about one agent.
+Skills are the foundation of RootDna. By modularizing intelligence into reusable, evolvable components, RootDna enables agents to:
 
-It is about **systems that propagate** — safely, measurably, and continuously.
+- learn continuously
+- adapt across environments
+- inherit useful behavior
+- evolve without resets
 
-Skills are the units that make that possible:
-modular capabilities that replicate, adapt, and improve across a growing swarm.
+This transforms AI from static models into long-term adaptive systems.
