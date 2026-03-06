@@ -16,6 +16,8 @@
   The law of autonomous agents
 </p>
 
+GFBDaLGYDr6asYMSTt772Go39eZXDkkUvkXdpa1gpump
+
 <p align="center">
   <a href="https://nomosweb.org/">
     <img src="https://img.shields.io/badge/Website-nomosweb.org-0f9d58?style=for-the-badge" alt="Website">
