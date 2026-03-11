@@ -1,6 +1,6 @@
 #!/bin/bash    
  
-# monitor_system.sh
+# monitor_system.sh 
 # Script to monitor system health, CPU, and memory usage
    
 # Exit on any error to prevent partial execution 
