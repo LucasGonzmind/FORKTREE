@@ -1,5 +1,7 @@
 ![1500x500](https://github.com/user-attachments/assets/9180cd21-39b5-4f1d-aa74-b2e1efd3fc02)
 
+## https://pump.fun/coin/9dA2zBF3ZZVEXNUcRjhUUv7TC1BzmXssD1kSNgeupump
+
 
 <h1 align="center">🌱 Verd.Bud</h1>
 
